@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Medical Expenses</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: grid;
+            grid-gap: 10px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Predict Medical Expenses</h1>
+        <form action="/predict" method="post">
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age">
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label for="marital_status">Marital Status:</label>
+            <select id="marital_status" name="marital_status">
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+            </select>
+
+            <label for="complaints_code">Key Complaints Code:</label>
+            <select id="key_complaints_code" name="key_complaints_code">
+                <option value="CAD">CAD</option>
+                <option value="ACHD">ACHD</option>
+                <option value="OS-ASD">OS-ASD</option>
+                <option value="RHD">RHD</option>
+                <option value="others">Others</option>
+                <option value="none">None</option>
+            </select>
+
+            <label for="weight">Weight:</label>
+            <input type="text" name="weight" id="weight">
+
+            <label for="height">Height:</label>
+            <input type="text" id="height" name="height">
+
+            <label for="hr_pulse">Heart Rate Pulse:</label>
+            <input type="text" id="hr_pulse" name="hr_pulse">
+
+            <label for="rr">Respiratory Rate:</label>
+            <input type="text" id="rr" name="rr">
+
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+</html>
