@@ -11,11 +11,11 @@ Run:
 
 
 <img width="375" alt="image" src="https://github.com/kalai-89/site-to-predict-medical-expenses/assets/169015624/deb85d8b-90b1-4543-8dc0-c8437ef23cee">
-
+<br>
 
 <img width="375" alt="image" src="https://github.com/kalai-89/site-to-predict-medical-expenses/assets/169015624/c78410d2-f2c5-492e-9f97-8a24a431657f">
-
+<br>
 
 <img width="375" alt="image" src="https://github.com/kalai-89/site-to-predict-medical-expenses/assets/169015624/86b3b544-922d-4b27-93db-2adc51858e8c">
-
+<br>
 
